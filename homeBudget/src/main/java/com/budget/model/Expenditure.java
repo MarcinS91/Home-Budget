@@ -1,5 +1,7 @@
 package com.budget.model;
 
+import java.math.BigDecimal;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -20,5 +22,5 @@ public class Expenditure {
 	private String expenditureData;
 	private String expenditureCategory;
 	@Min(value = 0, message = "Wartość nie może być mniejsza od zera!")
-	private double expenditureCost;
+	BigDecimal expenditureCost;
 }
