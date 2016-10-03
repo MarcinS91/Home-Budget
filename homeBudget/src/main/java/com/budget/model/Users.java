@@ -14,6 +14,7 @@ public class Users {
 	private String username;
 	private String password;
 	private Boolean enabled;
+	
 	public int getUsersId() {
 		return usersId;
 	}
