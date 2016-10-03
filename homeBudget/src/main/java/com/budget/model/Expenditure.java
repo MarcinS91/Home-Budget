@@ -19,6 +19,6 @@ public class Expenditure {
 	private String expenditureName;
 	private String expenditureData;
 	private String expenditureCategory;
-	@Min(value = 0, message = "Wartość nie może mieć wartości mniejszej od zera!")
+	@Min(value = 0, message = "Wartość nie może być mniejsza od zera!")
 	private double expenditureCost;
 }
