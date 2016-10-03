@@ -5,10 +5,17 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 @Entity
 public class Expenditure {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int expenditureId;
+	
+	@NotEmpty(message = "Nazwa nie może pozostać pusta!")
+	private String expenditureName;
+	
+	private String expenditureCategory;
 }
