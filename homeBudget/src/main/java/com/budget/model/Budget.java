@@ -15,4 +15,22 @@ public class Budget {
 	private int budgetId;
 	
 	BigDecimal amount;
+
+	public int getBudgetId() {
+		return budgetId;
+	}
+
+	public void setBudgetId(int budgetId) {
+		this.budgetId = budgetId;
+	}
+
+	public BigDecimal getAmount() {
+		return amount;
+	}
+
+	public void setAmount(BigDecimal amount) {
+		this.amount = amount;
+	}
+	
+	
 }
