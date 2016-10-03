@@ -13,8 +13,17 @@ public class Budget {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int budgetId;
-	
+
+	private String budgetDate;
 	BigDecimal amount;
+
+	public String getBudgetDate() {
+		return budgetDate;
+	}
+
+	public void setBudgetDate(String budgetDate) {
+		this.budgetDate = budgetDate;
+	}
 
 	public int getBudgetId() {
 		return budgetId;
@@ -31,6 +40,5 @@ public class Budget {
 	public void setAmount(BigDecimal amount) {
 		this.amount = amount;
 	}
-	
-	
+
 }
