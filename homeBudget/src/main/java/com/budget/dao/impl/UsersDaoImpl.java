@@ -54,7 +54,7 @@ public class UsersDaoImpl implements UsersDao {
 		Session session = sessionFactory.getCurrentSession();
 		Users user = (Users) session.get(Users.class, id);
 		session.flush();
-		
+
 		return user;
 	}
 
@@ -69,6 +69,11 @@ public class UsersDaoImpl implements UsersDao {
 
 	public Users getUserByUsername(String username) {
 
+		Session session = sessionFactory.getCurrentSession();
+		Query query = session.createQuery("from Users where username = ? ");
+		query.setString(0, username);
+
+		return (Users) query.uniqueResult();
 	}
 
 }
