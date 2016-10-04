@@ -8,11 +8,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Budget {
+public class Account {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int budgetId;
+	private int accountId;
+	
+	private Users user;
 
 	private String budgetDate;
 	BigDecimal amount;
@@ -25,12 +27,12 @@ public class Budget {
 		this.budgetDate = budgetDate;
 	}
 
-	public int getBudgetId() {
-		return budgetId;
+	public int getAccountId() {
+		return accountId;
 	}
 
-	public void setBudgetId(int budgetId) {
-		this.budgetId = budgetId;
+	public void setAccountId(int accountId) {
+		this.accountId = accountId;
 	}
 
 	public BigDecimal getAmount() {
@@ -40,5 +42,15 @@ public class Budget {
 	public void setAmount(BigDecimal amount) {
 		this.amount = amount;
 	}
+
+	public Users getUser() {
+		return user;
+	}
+
+	public void setUser(Users user) {
+		this.user = user;
+	}
+	
+	
 
 }
