@@ -2,6 +2,7 @@ package com.budget.dao.impl;
 
 import java.util.List;
 
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -54,6 +55,11 @@ public class UsersDaoImpl implements UsersDao {
 
 	public List<Users> getAllUsers() {
 
+		Session session = sessionFactory.getCurrentSession();
+		Query query = session.createQuery("from Users ");
+		List<Users> usersList = query.list();
+
+		return usersList;
 	}
 
 	public Users getUserByUsername(String usernmae) {
