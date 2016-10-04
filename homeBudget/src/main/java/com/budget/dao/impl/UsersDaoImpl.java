@@ -49,8 +49,13 @@ public class UsersDaoImpl implements UsersDao {
 
 	}
 
-	public Users getUserById(int usersId) {
+	public Users getUserById(int id) {
 
+		Session session = sessionFactory.getCurrentSession();
+		Users user = (Users) session.get(Users.class, id);
+		session.flush();
+		
+		return user;
 	}
 
 	public List<Users> getAllUsers() {
@@ -62,7 +67,7 @@ public class UsersDaoImpl implements UsersDao {
 		return usersList;
 	}
 
-	public Users getUserByUsername(String usernmae) {
+	public Users getUserByUsername(String username) {
 
 	}
 
