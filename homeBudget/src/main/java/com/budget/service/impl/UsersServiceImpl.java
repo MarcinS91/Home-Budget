@@ -2,39 +2,41 @@ package com.budget.service.impl;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.budget.dao.UsersDao;
 import com.budget.model.Users;
 import com.budget.service.UsersService;
 
+@Service
 public class UsersServiceImpl implements UsersService {
 
-	@Override
+	@Autowired
+	UsersDao usersDao;
+
 	public void addUsers(Users user) {
-		// TODO Auto-generated method stub
-		
+
+		usersDao.addUser(user);
 	}
 
-	@Override
 	public void deleteUsers(Users user) {
-		// TODO Auto-generated method stub
-		
+
 	}
 
-	@Override
 	public Users getUsersById(int usersId) {
-		// TODO Auto-generated method stub
-		return null;
+
+		return usersDao.getUserById(usersId);
 	}
 
-	@Override
 	public List<Users> getAllUsers() {
-		// TODO Auto-generated method stub
-		return null;
+
+		return usersDao.getAllUsers();
 	}
 
-	@Override
 	public Users getUserByUsername(String username) {
-		// TODO Auto-generated method stub
-		return null;
+
+		return usersDao.getUserByUsername(username);
 	}
 
 }
