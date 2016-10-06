@@ -110,7 +110,7 @@ footer {
 	</div>
 
 	<footer class="container-fluid text-center">
-		<p>Footer Text</p>
+		<p>HB-2016</p>
 	</footer>
 
 </body>
