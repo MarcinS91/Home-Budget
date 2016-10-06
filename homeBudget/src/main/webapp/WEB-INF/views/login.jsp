@@ -1,59 +1,46 @@
 
 
-	<%@page language="Java" contentType="text/html; charset=UTF-8"
+<%@page language="Java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Logowanie</title>
-<link href="<c:url value='/static/css/bootstrap.css' />"
-	rel="stylesheet"></link>
-<link href="<c:url value='/static/css/app.css' />" rel="stylesheet"></link>
-<link rel="stylesheet" type="text/css"
-	href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet"
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
 </head>
+<div class="container-wrapper">
+	<div class="container">
+		<div id="login-box">
+			<h2>Zaloguj się z użyciem nazwy użytkownika i hasła</h2>
 
-<body>
-	<div id="mainWrapper">
-		<div class="login-container">
-			<div class="login-card">
-				<div class="login-form">
-					<c:url var="loginUrl" value="/login" />
-					<form action="${loginUrl}" method="post" class="form-horizontal">
-						<c:if test="${param.error != null}">
-							<div class="alert alert-danger">
-								<p>Nieporawna nazwa użytkownika lub hasło!.</p>
-							</div>
-						</c:if>
-						<c:if test="${param.logout != null}">
-							<div class="alert alert-success">
-								<p>Logowanie zakończone pomyślnie</p>
-							</div>
-						</c:if>
-						<div class="input-group input-sm">
-							<label class="input-group-addon" for="username"><i
-								class="fa fa-user"></i></label> <input type="text" class="form-control"
-								id="username" name="ssoId" placeholder="Nazwa użytkownika" required>
-						</div>
-						<div class="input-group input-sm">
-							<label class="input-group-addon" for="password"><i
-								class="fa fa-lock"></i></label> <input type="password"
-								class="form-control" id="password" name="password"
-								placeholder="Hasło" required>
-						</div>
-						<input type="hidden" name="${_csrf.parameterName}"
-							value="${_csrf.token}" />
+			<c:if test="${not empty msg}">
+				<div class="msg">${msg}</div>
+			</c:if>
 
-						<div class="form-actions">
-							<input type="submit"
-								class="btn btn-block btn-primary btn-default" value="Zaloguj się">
-						</div>
-					</form>
+
+			<form name="loginForm"
+				action="<c:url value="/j_spring_security_check" />" method="post">
+
+				<c:if test="${not empty error}">
+					<div class="error" style="color: #ff0000;">${error}</div>
+				</c:if>
+
+				<div class="form-group">
+					<label for="username">Użytkownik: </label> <input type="text"
+						id="username" name="username" class="form-control" />
 				</div>
-			</div>
+				<div class="form-group">
+					<label for="password">Hasło:</label> <input type="password"
+						id="password" name="password" class="form-control" />
+				</div>
+				<input type="submit" value="Zatwierdź" class="btn btn-default">
+				<input type="hidden" name="${_csrf.parameterName}"
+					value="${_csrf.token}" />
+			</form>
 		</div>
-	</div>
 
-</body>
-</html>
+
+	</div>
+</div>
+
