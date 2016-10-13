@@ -25,6 +25,15 @@
 			<li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
 			<li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
 			<li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+			<li><a data-toggle="tab" href="#menu4">Menu 4</a></li>
+			<li><a data-toggle="tab" href="#menu5">Menu 5</a></li>
+			<li><a data-toggle="tab" href="#menu6">Menu 5</a></li>
+			<li><a data-toggle="tab" href="#menu7">Menu 5</a></li>
+			<li><a data-toggle="tab" href="#menu8">Menu 5</a></li>
+			<li><a data-toggle="tab" href="#menu9">Menu 5</a></li>
+			<li><a data-toggle="tab" href="#menu10">Menu 5</a></li>
+			<li><a data-toggle="tab" href="#menu11">Menu 5</a></li>
+			<li><a data-toggle="tab" href="#menu12">Menu 5</a></li>
 		</ul>
 
 		<div class="tab-content">
@@ -35,18 +44,147 @@
 			</div>
 			<div id="menu1" class="tab-pane fade">
 				<h3>Menu 1</h3>
-				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-					laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+				</table>
 			</div>
 			<div id="menu2" class="tab-pane fade">
 				<h3>Menu 2</h3>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit
-					voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+				</table>
 			</div>
 			<div id="menu3" class="tab-pane fade">
 				<h3>Menu 3</h3>
-				<p>Eaque ipsa quae ab illo inventore veritatis et quasi
-					architecto beatae vitae dicta sunt explicabo.</p>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			<div id="menu3" class="tab-pane fade">
+				<h3>Menu 3</h3>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			<div id="menu4" class="tab-pane fade">
+				<h3>Menu 4</h3>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			<div id="menu5" class="tab-pane fade">
+				<h3>Menu 5</h3>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			<div id="menu5" class="tab-pane fade">
+				<h3>Menu 5</h3>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			<div id="menu5" class="tab-pane fade">
+				<h3>Menu 5</h3>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			<div id="menu5" class="tab-pane fade">
+				<h3>Menu 5</h3>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			<div id="menu5" class="tab-pane fade">
+				<h3>Menu 5</h3>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			<div id="menu5" class="tab-pane fade">
+				<h3>Menu 5</h3>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			<div id="menu5" class="tab-pane fade">
+				<h3>Menu 5</h3>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+				</table>
 			</div>
 		</div>
 	</div>
