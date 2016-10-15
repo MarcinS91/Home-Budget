@@ -22,10 +22,10 @@
 
 		</div>
 		<form:form
-			action="${pageContext.request.contextPath}/admin/product/addProduct"
-			method="post" commandName="product">
+			action="${pageContext.request.contextPath}"
+			method="post" commandName="">
 			<div class="form-group">
-				<label for="name">Nazwa</label>
+				<label for="">Nazwa</label>
 				<form:errors path="productName" cssStyle="color:#ff0000;" />
 				<form:input path="productName" id="name" class="form-Control" />
 			</div>
