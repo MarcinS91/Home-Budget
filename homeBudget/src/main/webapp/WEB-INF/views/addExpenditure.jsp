@@ -23,4 +23,18 @@
 		</div>
 		<form:form
 			action="${pageContext.request.contextPath}/admin/product/addProduct"
-			method="post" commandName="product">
+			method="POST" commandName="product">
+			<div class="form-group">
+				<label for="name">Nazwa</label>
+				<form:errors path="productName" cssStyle="color:#ff0000;" />
+				<form:input path="productName" id="name" class="form-Control" />
+			</div>
+			<div class="form-group">
+				<label for="category">Kategoria</label> <label
+					class="checkbox-inline"><form:radiobutton
+						path="productCategory" id="category" value="Pop" />Pop</label> <label
+					class="checkbox-inline"><form:radiobutton
+						path="productCategory" id="category" value="Rock" />Rock</label> <label
+					class="checkbox-inline"><form:radiobutton
+						path="productCategory" id="category" value="Disco" />Disco</label> 
+			</div>
