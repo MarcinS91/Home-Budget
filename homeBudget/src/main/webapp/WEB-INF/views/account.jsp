@@ -22,18 +22,18 @@
 		<h2>Dynamic Tabs</h2>
 		<ul class="nav nav-tabs">
 			<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-			<li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-			<li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-			<li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
-			<li><a data-toggle="tab" href="#menu4">Menu 4</a></li>
-			<li><a data-toggle="tab" href="#menu5">Menu 5</a></li>
-			<li><a data-toggle="tab" href="#menu6">Menu 5</a></li>
-			<li><a data-toggle="tab" href="#menu7">Menu 5</a></li>
-			<li><a data-toggle="tab" href="#menu8">Menu 5</a></li>
-			<li><a data-toggle="tab" href="#menu9">Menu 5</a></li>
-			<li><a data-toggle="tab" href="#menu10">Menu 5</a></li>
-			<li><a data-toggle="tab" href="#menu11">Menu 5</a></li>
-			<li><a data-toggle="tab" href="#menu12">Menu 5</a></li>
+			<li><a data-toggle="tab" href="#menu1">Styczeń</a></li>
+			<li><a data-toggle="tab" href="#menu2">Luty</a></li>
+			<li><a data-toggle="tab" href="#menu3">Marzec</a></li>
+			<li><a data-toggle="tab" href="#menu4">Kwiecień</a></li>
+			<li><a data-toggle="tab" href="#menu5">Maj</a></li>
+			<li><a data-toggle="tab" href="#menu6">Czerwiec</a></li>
+			<li><a data-toggle="tab" href="#menu7">Lipiec</a></li>
+			<li><a data-toggle="tab" href="#menu8">Sierpień</a></li>
+			<li><a data-toggle="tab" href="#menu9">Wrzesień</a></li>
+			<li><a data-toggle="tab" href="#menu10">Październik</a></li>
+			<li><a data-toggle="tab" href="#menu11">Listopad</a></li>
+			<li><a data-toggle="tab" href="#menu12">Grudzień</a></li>
 		</ul>
 
 		<div class="tab-content">
@@ -43,145 +43,145 @@
 					do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			</div>
 			<div id="menu1" class="tab-pane fade">
-				<h3>Menu 1</h3>
+				<h3>Styczeń</h3>
 				<table class="table">
 					<thead>
 						<tr>
-							<th>Firstname</th>
-							<th>Lastname</th>
-							<th>Email</th>
+							<th>Nazwa</th>
+							<th>Data</th>
+							<th>Kategoria</th>
 						</tr>
 					</thead>
 				</table>
 			</div>
 			<div id="menu2" class="tab-pane fade">
-				<h3>Menu 2</h3>
+				<h3>Luty</h3>
 				<table class="table">
 					<thead>
 						<tr>
-							<th>Firstname</th>
-							<th>Lastname</th>
-							<th>Email</th>
+							<th>Nazwa</th>
+							<th>Data</th>
+							<th>Kategoria</th>
 						</tr>
 					</thead>
 				</table>
 			</div>
 			<div id="menu3" class="tab-pane fade">
-				<h3>Menu 3</h3>
+				<h3>Marzec</h3>
 				<table class="table">
 					<thead>
 						<tr>
-							<th>Firstname</th>
-							<th>Lastname</th>
-							<th>Email</th>
+							<th>Nazwa</th>
+							<th>Data</th>
+							<th>Kategoria</th>
 						</tr>
 					</thead>
 				</table>
 			</div>
 			<div id="menu3" class="tab-pane fade">
-				<h3>Menu 3</h3>
+				<h3>Kwiecień</h3>
 				<table class="table">
 					<thead>
 						<tr>
-							<th>Firstname</th>
-							<th>Lastname</th>
-							<th>Email</th>
+							<th>Nazwa</th>
+							<th>Data</th>
+							<th>Kategoria</th>
 						</tr>
 					</thead>
 				</table>
 			</div>
 			<div id="menu4" class="tab-pane fade">
-				<h3>Menu 4</h3>
+				<h3>Maj</h3>
 				<table class="table">
 					<thead>
 						<tr>
-							<th>Firstname</th>
-							<th>Lastname</th>
-							<th>Email</th>
+							<th>Nazwa</th>
+							<th>Data</th>
+							<th>Kategoria</th>
 						</tr>
 					</thead>
 				</table>
 			</div>
 			<div id="menu5" class="tab-pane fade">
-				<h3>Menu 5</h3>
+				<h3>Czerwiec</h3>
 				<table class="table">
 					<thead>
 						<tr>
-							<th>Firstname</th>
-							<th>Lastname</th>
-							<th>Email</th>
+							<th>Nazwa</th>
+							<th>Data</th>
+							<th>Kategoria</th>
 						</tr>
 					</thead>
 				</table>
 			</div>
 			<div id="menu5" class="tab-pane fade">
-				<h3>Menu 5</h3>
+				<h3>Lipiec</h3>
 				<table class="table">
 					<thead>
 						<tr>
-							<th>Firstname</th>
-							<th>Lastname</th>
-							<th>Email</th>
+							<th>Nazwa</th>
+							<th>Data</th>
+							<th>Kategoria</th>
 						</tr>
 					</thead>
 				</table>
 			</div>
 			<div id="menu5" class="tab-pane fade">
-				<h3>Menu 5</h3>
+				<h3>Sierpień</h3>
 				<table class="table">
 					<thead>
 						<tr>
-							<th>Firstname</th>
-							<th>Lastname</th>
-							<th>Email</th>
+							<th>Nazwa</th>
+							<th>Data</th>
+							<th>Kategoria</th>
 						</tr>
 					</thead>
 				</table>
 			</div>
 			<div id="menu5" class="tab-pane fade">
-				<h3>Menu 5</h3>
+				<h3>Wrzesień</h3>
 				<table class="table">
 					<thead>
 						<tr>
-							<th>Firstname</th>
-							<th>Lastname</th>
-							<th>Email</th>
+							<th>Nazwa</th>
+							<th>Data</th>
+							<th>Kategoria</th>
 						</tr>
 					</thead>
 				</table>
 			</div>
 			<div id="menu5" class="tab-pane fade">
-				<h3>Menu 5</h3>
+				<h3>Październik</h3>
 				<table class="table">
 					<thead>
 						<tr>
-							<th>Firstname</th>
-							<th>Lastname</th>
-							<th>Email</th>
+							<th>Nazwa</th>
+							<th>Data</th>
+							<th>Kategoria</th>
 						</tr>
 					</thead>
 				</table>
 			</div>
 			<div id="menu5" class="tab-pane fade">
-				<h3>Menu 5</h3>
+				<h3>Listopad</h3>
 				<table class="table">
 					<thead>
 						<tr>
-							<th>Firstname</th>
-							<th>Lastname</th>
-							<th>Email</th>
+							<th>Nazwa</th>
+							<th>Data</th>
+							<th>Kategoria</th>
 						</tr>
 					</thead>
 				</table>
 			</div>
 			<div id="menu5" class="tab-pane fade">
-				<h3>Menu 5</h3>
+				<h3>Grudzień</h3>
 				<table class="table">
 					<thead>
 						<tr>
-							<th>Firstname</th>
-							<th>Lastname</th>
-							<th>Email</th>
+							<th>Nazwa</th>
+							<th>Data</th>
+							<th>Kategoria</th>
 						</tr>
 					</thead>
 				</table>
