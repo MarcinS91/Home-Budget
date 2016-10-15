@@ -23,7 +23,7 @@
 		</div>
 		<form:form
 			action="${pageContext.request.contextPath}/admin/product/addProduct"
-			method="POST" commandName="product">
+			method="post" commandName="product">
 			<div class="form-group">
 				<label for="name">Nazwa</label>
 				<form:errors path="productName" cssStyle="color:#ff0000;" />
@@ -36,5 +36,28 @@
 					class="checkbox-inline"><form:radiobutton
 						path="productCategory" id="category" value="Rock" />Rock</label> <label
 					class="checkbox-inline"><form:radiobutton
-						path="productCategory" id="category" value="Disco" />Disco</label> 
+						path="productCategory" id="category" value="Disco" />Disco</label>
 			</div>
+			<div class="container">
+				<div class="row">
+					<div class='col-sm-6'>
+						<div class="form-group">
+							<div class='input-group date' id='datetimepicker1'>
+								<input type='text' class="form-control" /> <span
+									class="input-group-addon"> <span
+									class="glyphicon glyphicon-calendar"></span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<script type="text/javascript">
+						$(function() {
+							$('#datetimepicker1').datetimepicker();
+						});
+					</script>
+				</div>
+			</div>
+			<input type="submit" value="Zatwierdź" class=" btn-default">
+			<a href="<c:url value="/admin/productInventory" />"
+				class=" btn-default">Anuluj</a>
+		</form:form>
