@@ -54,6 +54,20 @@
 							<th>Wartość</th>
 						</tr>
 					</thead>
+					<c:forEach items="${expenditures}" var="expenditure">
+						<tr>
+							<td>
+							<td>${expenditure.expenditureName}</td>
+							<td>${expenditure.expenditureCategory}</td>
+							<td>${expenditure.expenditureCost}PLN</td>
+							<td>${expenditure.expenditureData}PLN</td>
+							<td><a
+								href="<spring:url value="/admin/product/deleteProduct/${expenditure.expenditureId}" />"><span
+									class="glyphicon glyphicon-remove"></span></a> <a
+								href="<spring:url value="/admin/product/editProduct/${expenditure.expenditureId}" />"><span
+									class="glyphicon glyphicon-pencil"></span></a></td>
+						</tr>
+					</c:forEach>
 				</table>
 			</div>
 			<div id="menu2" class="tab-pane fade">
