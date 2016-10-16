@@ -25,22 +25,22 @@
 			commandName="">
 			<div class="form-group">
 				<label for="">Nazwa</label>
-				<form:errors path="productName" cssStyle="color:#ff0000;" />
-				<form:input path="productName" id="name" class="form-Control" />
+				<form:errors path="expenditureName" cssStyle="color:#ff0000;" />
+				<form:input path="expenditureName" id="name" class="form-Control" />
 			</div>
 			<div class="form-group">
-				<label for="price">Wartość</label>
-				<form:errors path="productPrice" cssStyle="color:#ff0000;" />
-				<form:input path="productPrice" id="price" class="form-Control" />
+				<label for="cost">Wartość</label>
+				<form:errors path="expenditureCost" cssStyle="color:#ff0000;" />
+				<form:input path="expenditureCost" id="cost" class="form-Control" />
 			</div>
 			<div class="form-group">
 				<label for="category">Kategoria</label> <label
 					class="checkbox-inline"><form:radiobutton
-						path="productCategory" id="category" value="Pop" />Pop</label> <label
+						path="expenditureCategory" id="category" value="Daily" />Wydatki codzienne</label> <label
 					class="checkbox-inline"><form:radiobutton
-						path="productCategory" id="category" value="Rock" />Rock</label> <label
+						path="expenditureCategory" id="category" value="Periodic" />Wydatki okresowe</label> <label
 					class="checkbox-inline"><form:radiobutton
-						path="productCategory" id="category" value="Disco" />Disco</label>
+						path="expenditureCategory" id="category" value="Occasional" />Wydatki okazjonalne</label>
 			</div>
 			<div class="container">
 				<div class="row">
