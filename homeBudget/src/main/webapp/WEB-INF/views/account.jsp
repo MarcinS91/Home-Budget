@@ -38,18 +38,20 @@
 
 		<div class="tab-content">
 			<div id="home" class="tab-pane fade in active">
-				<h3>HOME</h3>
+				<h3>Strona główna</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
 					do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			</div>
 			<div id="menu1" class="tab-pane fade">
-				<h3>Styczeń</h3>
+				<h3>Wydatki</h3>
+				<p>Zarządzanie wydatkami</p>
 				<table class="table">
 					<thead>
 						<tr>
 							<th>Nazwa</th>
 							<th>Data</th>
 							<th>Kategoria</th>
+							<th>Wartość</th>
 						</tr>
 					</thead>
 				</table>
