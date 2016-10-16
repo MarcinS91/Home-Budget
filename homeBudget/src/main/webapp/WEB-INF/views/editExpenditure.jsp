@@ -27,12 +27,14 @@
 			<div class="form-group">
 				<label for="">Nazwa</label>
 				<form:errors path="expenditureName" cssStyle="color:#ff0000;" />
-				<form:input path="expenditureName" id="name" class="form-Control" />
+				<form:input path="expenditureName" id="name" class="form-Control"
+					value="${product.productName}" />
 			</div>
 			<div class="form-group">
 				<label for="cost">Wartość</label>
 				<form:errors path="expenditureCost" cssStyle="color:#ff0000;" />
-				<form:input path="expenditureCost" id="cost" class="form-Control" />
+				<form:input path="expenditureCost" id="cost" class="form-Control"
+					value="${product.productPrice}" />
 			</div>
 			<div class="form-group">
 				<label for="category">Kategoria</label> <label
