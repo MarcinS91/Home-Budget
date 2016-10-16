@@ -21,13 +21,17 @@
 
 
 		</div>
-		<form:form
-			action="${pageContext.request.contextPath}"
-			method="post" commandName="">
+		<form:form action="${pageContext.request.contextPath}" method="post"
+			commandName="">
 			<div class="form-group">
 				<label for="">Nazwa</label>
 				<form:errors path="productName" cssStyle="color:#ff0000;" />
 				<form:input path="productName" id="name" class="form-Control" />
+			</div>
+			<div class="form-group">
+				<label for="price">Wartość</label>
+				<form:errors path="productPrice" cssStyle="color:#ff0000;" />
+				<form:input path="productPrice" id="price" class="form-Control" />
 			</div>
 			<div class="form-group">
 				<label for="category">Kategoria</label> <label
