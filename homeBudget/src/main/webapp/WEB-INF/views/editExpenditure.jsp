@@ -23,6 +23,7 @@
 		</div>
 		<form:form action="${pageContext.request.contextPath}" method="post"
 			commandName="">
+			<form:hidden path="productId" value="${product.productId}" />
 			<div class="form-group">
 				<label for="">Nazwa</label>
 				<form:errors path="expenditureName" cssStyle="color:#ff0000;" />
