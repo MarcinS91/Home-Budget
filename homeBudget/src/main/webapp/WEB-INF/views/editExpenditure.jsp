@@ -14,10 +14,10 @@
 <div class="container-wrapper">
 	<div class="container">
 		<div class="page-header">
-			<h1>Dodaj wydatek</h1>
+			<h1>Edycja</h1>
 
 
-			<p class="lead">Uzupełnij informacje o wydatku:</p>
+
 
 
 		</div>
